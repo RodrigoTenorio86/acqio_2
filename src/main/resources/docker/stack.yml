@@ -11,7 +11,7 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: Rr123
-      MONGO_INITDB_DATABASE: acqio
+      MONGO_INITDB_DATABASE: admin
 
   mongo-express:
     image: mongo-express

@@ -1,13 +1,14 @@
 server:
   port: 8080
-  servlet:
-    context-path: /transaction
+#  servlet:
+#    context-path: /transaction
     
 spring:
   data:
     mongodb:
       host: localhost
       port: 27017
-      database: acqio
+      database: admin
       password: Rr123
       username: root
+      
